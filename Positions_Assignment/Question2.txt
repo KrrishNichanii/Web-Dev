@@ -1,0 +1,6 @@
+Explain the difference between relative and absolute positioning
+Ans: Absolute-->Elements with Absolute positioning are placed in accordance with the relative parent element. The positions of top, right,
+                bottom & left are rendered as per the parent relative element of this current element
+
+     Relative-->We can change position of element relative of its original position by using top down left right property.
+
