@@ -1,0 +1,278 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.Train{
+    position:relative;
+    float: right;
+    width: 696px;
+    height:100vh;
+}
+button:hover{
+    cursor:pointer;
+}
+.left{
+    height: 100vh;
+    width: 53.5vw;
+    display:  inline-block;
+  
+}
+
+.head{
+    display: flex;
+}
+.logo{
+    width: 168.31px ;
+    height: 81.11px ;
+    position:relative;
+    top: 38.69px;
+   left: 101.39px;
+   /* padding: 0px, 0px, 0px, 0px */ 
+
+}
+
+.head-right{
+    width: 321.81px;
+    height: 81.88px;
+    position:relative;
+    top: 38.69px;
+    left: 337.46px;
+
+}
+.buttons{
+  display:flex;
+  gap: 24.78px;
+  justify-content:flex-end;
+  padding-top: 24px;
+ 
+}
+.head-right-top{
+    display:flex;
+    gap:25.35px;
+    justify-content: flex-end;
+}
+.login{
+    background-color:#FB792B !important;
+    color:white;
+    border:none !important;
+}
+.buttons button{
+    /* width:71.42px;
+    height:38.28px; */
+    border-radius: 5.07px;
+    width: 82.42px;
+    height: 33.28px;
+    border:none;
+    background-color: white;
+    border:1px grey solid;
+}
+
+.header-title{
+    position:relative;
+    top:79px;
+    width: 438px;
+    height: 118.08px;
+    left: 101.39px;
+
+}
+.header-title h1{
+    font-family: Inter;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+}
+.ssp{
+    padding-top:17px;
+    display:flex;
+    gap: 27px;
+}
+.ssp span{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+.safety{
+    color:#01BB0A;
+}
+.security{
+    color:#FB792B;
+}
+.punctuality{
+    color: #213D77;
+}
+
+.sub-buttons{
+    position:relative;
+    top:115px;
+    width:603.22px;
+    height:44.61px;
+    left: 101.39px;
+    display:flex;
+    gap: 20.28px;
+
+}
+.sub-buttons button{
+    width:178.89px;
+    height:44.61px;
+    padding: 10.14px, 15.21px, 10.14px, 15.21px;
+    border-radius: 5.07px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.book{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    color:white;
+    background-color: #213D77;
+    padding-left: 10px;
+    justify-content:center;
+}
+.status,.charts{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    border:1px #33333380 solid;
+    background-color:white;
+    padding-left: 10px;
+    justify-content:center;
+}
+
+.search-train{
+    position:relative;
+    top: 152px;
+    left: 101px;
+    height:235px;
+    width:618.47px;
+}
+.from , .to{
+    width:180px;
+    height: 100.6px;
+    
+}
+.search1{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border: 1.01px solid #3333331A;
+    border-radius:10.14px;
+}
+.from{
+    /* display:flex; */
+}
+.city{
+    display:inline-block;
+    width:108px;
+    padding-top:15px;
+}
+
+.train1{
+    position:relative;
+    bottom:11px;
+    right:4px;
+}
+.first{
+    display: flex;
+    height:33%;
+ 
+}
+.first p{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333333;
+
+}
+.second{
+    height:33%;
+    position: relative;
+    top:2px;
+}
+.third{
+    height:33%;
+    position:relative;
+    top:6px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333333;
+
+}
+.second h3{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333333;
+
+
+}
+.circle{
+    position:relative;
+    top: 8px;
+    left: 25px;
+    color: transparent;
+    z-index: auto;
+}
+.arrow{
+    z-index:5;
+    position:relative;
+    right:13px;
+    bottom:5px;
+}
+.search2{
+    border:1px solid black;
+    border-radius:10.14px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border: 1.01px solid #3333331A;
+    margin-top:17px;
+}
+.extra{
+    bottom:41px;
+}
+.search-btn{
+    position:relative;
+    top: 171px;
+    left: 103px;
+    background-color:#01BB0A;
+    width: 618.47px;
+    height: 75.11px;
+    border-radius: 10.14px;
+    border:none;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+}
+.ra{
+    position:relative;
+    top:9px;
+    right:0px;
+}

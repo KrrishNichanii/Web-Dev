@@ -1,0 +1,15 @@
+Question-2 
+
+Explain the role of following key properties in the flexbox layout model
+1. justify-content
+2. align-items
+3. gap
+4. flex-direction
+5. flex-wrap
+
+Ans : 1. Changes position of the content in the main axis
+      2. Changes position of the content in the cross axis
+      3. Gap provides gap between the individual items of flexbox
+      4. Specifies the direction of the flexible items . We can also change the main axis using this
+      5. The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines.
+       
