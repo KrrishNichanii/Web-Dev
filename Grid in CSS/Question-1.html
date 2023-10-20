@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-image: url("https://images.pexels.com/photos/3618162/pexels-photo-3618162.jpeg");
+      background-size:cover;
+      background-repeat: no-repeat;
+    }
+    .container{
+      display: grid;
+      height:1200px;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(4,1fr);
+      gap: 20px;
+    }
+    .box{
+      /* height: 100px;
+      width: 100px; */
+      border-radius: 20px;
+      border:2px solid white;
+    }
+    .box1{
+      
+      grid-row-start: 1;
+      grid-row-end: 3;
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap: 10px 10px;
+      padding :10px;
+      border: none;
+    }
+    .box2{
+     background-image: url("https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg");
+    background-size: cover;
+    }
+    .box3{
+      background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg");
+      background-size: cover;
+    }
+    .box4{
+      background-image: url("https://images.pexels.com/photos/23547/pexels-photo.jpg");
+      background-size:cover;
+    }
+    .box5{
+      grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-start: 3;
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap: 10px 10px;
+      padding :10px;
+      border: none;
+    }
+    .box6{
+      background-image: url("https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size:cover;
+    }
+    .box7{
+     background-image: url("https://images.pexels.com/photos/2649403/pexels-photo-2649403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+     background-size:cover;
+    }
+    .box8{
+      background-image: url("https://images.pexels.com/photos/10528234/pexels-photo-10528234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size:cover;
+    }
+    .box9{
+     background-image: url("");
+    }
+    .box10{
+      background-color: brown;
+    }
+    .box11{
+      background-color:blue;
+    }
+    .box12{
+      background-color: red;
+    }
+    .subBox1{
+         background-image: url("https://images.pexels.com/photos/91216/pexels-photo-91216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+         background-size:cover;
+      background-repeat: no-repeat;
+        border-radius: 10px;
+        border:2px white solid;
+    }
+    .subBox2{
+      background-image: url("https://images.pexels.com/photos/1470405/pexels-photo-1470405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      border-radius: 10px;
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:2px white solid;
+    }
+    .subBox3{
+      background-image: url("https://images.pexels.com/photos/345162/pexels-photo-345162.jpeg");
+      border-radius: 10px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:2px white solid;
+
+    }
+    .subBox4{
+      border-radius: 10px;
+      background-image: url("https://images.pexels.com/photos/315987/pexels-photo-315987.jpeg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:2px white solid;
+    }
+    .subBox5{
+      background-image: url("https://images.pexels.com/photos/545521/pexels-photo-545521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      border-radius: 10px;
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:2px white solid;
+    }
+    .subBox6{
+      background-image: url("https://images.pexels.com/photos/158489/yellowstone-national-park-sunset-twilight-dusk-158489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      border-radius: 10px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:2px white solid;
+    }
+  </style>
+</head>
+<body>
+            <div class="container">
+              <div class="box box1">
+                <div class="subBox1">
+                  
+                </div>
+                <div class="subBox2"></div>
+                <div class="subBox3"></div>
+              </div>
+              <div class="box box2"></div>
+              <div class="box box3"></div>
+              <div class="box box4"></div>
+              <div class="box box5">
+                <div class="subBox4"></div>
+                <div class="subBox5"></div>
+                <div class="subBox6"></div>
+              </div>
+              <div class="box box6"></div>
+              <div class="box box7"></div>
+              <div class="box box8"></div>
+              <div class="box box9"></div>
+              <div class="box box10"></div>
+              <div class="box box11"></div>
+              <div class="box box12"></div>
+              <div class="box box13"></div>
+            </div>
+</body>
+</html>

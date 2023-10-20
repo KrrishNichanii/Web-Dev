@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container :nth-child(odd){
+            background-color: rgb(30, 30, 30);
+            border-radius: 10px;
+         
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(2,1fr);
+           width:700px;
+           height: 300px;
+           gap: 10px;
+        }
+        .container :nth-child(even){
+            background-color: rgb(156, 155, 155);
+            border-radius: 10px;
+        }
+        .container > div{
+            color:white;
+        }
+        body{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+        }
+        .box1{
+            order: 5;
+        }
+        .box2{
+            order: 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+        </div>
+</body>
+</html>

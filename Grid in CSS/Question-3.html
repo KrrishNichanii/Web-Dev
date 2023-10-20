@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .parent{
+            background-color: blue;
+            display: grid;
+            grid-gap:20px;
+            margin:200px 200px;
+            padding:15px;
+            grid-auto-rows: 50px;
+            grid-auto-columns: 211px;
+        }
+        .child{
+            background-color: aqua;
+            border-radius: 10px;
+        }
+        .c1{ grid-area: 1 / 1 / 2 / 2; }
+        .c2 { grid-area: 1 / 2 / 2 / 3; }
+        .c3 { grid-area: 1 / 3 / 2 / 4; }
+        .c4{ grid-area: 2 / 1 / 3 / 2; }
+        .c5 { grid-area: 2 / 2 / 3 / 3; }
+        .c6 { grid-area: 2 / 3 / 3 / 4; }
+    </style>
+</head>
+<body>
+    <p>Grid-auto-row and grid-auto-column are used to set the size of the rows and columns by default</p>
+    <div class="parent">
+        <div class="child c1">1</div>
+        <div class="child c2">2</div>
+        <div class="child c3">3</div>
+        <div class="child c4">4</div>
+        <div class="child c5">5</div>
+        <div class="child c6">6</div>
+    </div>
+    <p>By changing values of grid-auto-column you can change the width of the boxes and by using grid-auto-row you can change height of the boxes</p>
+</body>
+</html>
