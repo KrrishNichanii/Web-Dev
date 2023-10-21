@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: grey;
+            text-align: center;
+            height:200px;
+        }
+        header h1{
+            
+            padding-top:95px ;
+        }
+        .hide{
+            visibility: hidden;
+        }
+        @media (width<=600px){
+            header{
+                background-color:aqua ;
+            }
+            .hide{
+                visibility: visible;
+                color:white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Resposive Header </h1> <p class="hide"> width less than 600px</p></header>
+    <main>Main section</main>
+    <footer>Footer</footer>
+</body>
+</html>
