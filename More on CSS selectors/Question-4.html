@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            cursor: pointer;
+            background-color: blue;
+            color:white;
+            font-size: larger;
+            position:relative;
+            top:250px;
+            left:50%;
+            padding:10px;
+            border-radius: 8px;
+        }
+        button:hover{
+            box-shadow:  10px 10px 5px lightblue;
+        }
+        div:hover::before{
+            content:"On hover";
+        }
+    </style>
+</head>
+<body>
+    <div><button>PW Skills</button></div>
+</body>
+</html>

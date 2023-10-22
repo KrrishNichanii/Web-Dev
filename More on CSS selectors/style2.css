@@ -1,0 +1,14 @@
+nav ul{
+    text-decoration:none;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+ul >li{
+    display:inline;
+}
+
+li+li{
+    margin:50px;
+}
