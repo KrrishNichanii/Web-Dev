@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center gap-4 h-[100vh] items-center">
+        
+    <div class="container  w-5/12 max-w-md">
+          <header class="flex flex-col align-middle ">
+            <h1 class="text-2xl text-center">Login</h1>
+            <p class="text-gray-400 text-center pt-2">Enter your credential to access your account</p>
+            <button class="pt-3 border border-zinc-900 mt-5 flex justify-center gap-3 align-middle pb-3 hover:bg-slate-100"><img src="search2.png" alt=""><span>Login with Google</span></button>
+          </header>
+          <!-- or section -->
+          <div class="flex w-full justify-center items-center gap-4 py-4 mt-7">
+            <div class="w-full  h-[0.5px] bg-[#828282]"></div>
+            <p>Or</p>
+            <div class="w-full  h-[0.5px] bg-[#828282]"> </div>
+            </div>
+            <!-- form section -->
+            <form action="" class="flex flex-col">
+                <div class="flex flex-col"><label for="" class="block">Email Address</label>
+                    <input type="email" placeholder="  email@gmail.com" class="border border-black py-2">
+                </div>
+                 <div class="mt-5 flex flex-col">
+                   <div><label for="" class="">Password</label> <a href="#" class="text-blue-500  float-right">Forgot Password ?</a></div> 
+                    <input type="password" class="border border-black py-2" placeholder="  Password">
+                </div>
+            </form>
+            <!-- login button -->
+            <button class="border border-black mt-5 w-full py-1 bg-blue-500 text-white border-transparent hover:border-black">Login</button>
+            <div class="text-gray-400 pt-3 text-center">Don't have an account? <span class="text-black">Register here</span></div>
+        </div>
+        <!-- Side image -->
+        <div class=" hidden lg:block w-[30%] self-end"><img src="young-happy-woman-with-good-idea-sign-white-shirt-full-portrait.jpg" alt="" class="h-[90vh] relative left-10">
+         
+</body>
+</html>
