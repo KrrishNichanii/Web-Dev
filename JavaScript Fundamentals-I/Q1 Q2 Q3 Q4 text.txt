@@ -1,0 +1,59 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Ans:
+Operators in JavaScript are fundamental components of the language that allow you to perform various operations on data, such as variables, values, and expressions. They are essential in programming for several reasons one of which is that they allow us to solve real world problems using math and logic.
+
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+Ans: 
+1) Arithmetic Operations: Operators like +, -, *, and / enable you to perform basic arithmetic operations, making it possible to calculate values, perform mathematical calculations, and manipulate data.
+
+2) Comparison Operations: Comparison operators (e.g., ==, ===, !=, !==, <, >, <=, >=) allow you to compare values and expressions. These operators are essential for decision-making and conditional statements.
+
+3) Logical Operations: Logical operators (&&, ||, !) are crucial for controlling the flow of a program. They help you build conditional expressions, make decisions, and control the execution of code based on specific conditions.
+
+4) Assignment Operations: The assignment operator (=) is used to assign values to variables. It's a fundamental concept for storing and manipulating data.
+
+
+
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Ans:
+  1) Unary Operators:
+
+Unary operators work with a single operand.
+They perform operations on a single value or variable.
+Examples include the increment and decrement operators (++ and --), the negation operator (-), and the logical NOT operator (!)
+
+2) Binary Operators:
+
+Binary operators work with two operands.
+They perform operations that involve two values or variables.
+Examples include arithmetic operators (+, -, *, /), comparison operators (<, >, ==, !=), and logical operators (&&, ||).
+
+3) Ternary Operators:
+
+Ternary operators work with three operands.
+They are often used for conditional expressions and are represented by the ? : syntax.
+A ternary operator evaluates a condition and returns one of two values based on whether the condition is true or false.
+
+
+
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+important?
+
+Ans: 
+
+Precedence: Precedence refers to the priority or order in which operators are evaluated within an expression. Operators with higher precedence are evaluated before those with lower precedence. For example, multiplication (*) has higher precedence than addition (+), so 2 * 3 + 1 is evaluated as (2 * 3) + 1.
+
+JavaScript operators have varying levels of precedence, and it's important to understand this to ensure that expressions are evaluated correctly. For instance, logical operators have lower precedence than comparison operators, which can affect the behavior of conditional expressions
+
+Associativity: Associativity determines the order in which operators of the same precedence are evaluated when they appear in sequence. Operators can be left-associative (evaluated from left to right) or right-associative (evaluated from right to left). Most JavaScript operators are left-associative.
+
+For example, the addition (+) operator is left-associative, so 2 + 3 + 4 is evaluated as (2 + 3) + 4
+
+Knowing these is important as not knowing these will not give us the desired output sometimes as they might behave differently they what we think.
+
+
