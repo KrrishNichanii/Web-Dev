@@ -1,0 +1,22 @@
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.
+
+Ans: 
+HTML (Hypertext Markup Language):
+
+Purpose:
+
+HTML is a markup language used for structuring the content of web pages. It defines the elements and layout of a web page's structure.
+Usage:
+
+HTML is used to create the static structure of a web page, including headings, paragraphs, lists, images, links, forms, and more.
+It defines the layout and presentation of content on a webpage
+
+JavaScript:
+
+Purpose:
+
+JavaScript is a dynamic scripting language used for adding interactivity, logic, and behavior to web pages.
+Usage:
+
+JavaScript is used to make web pages more interactive by responding to user actions, manipulating the Document Object Model (DOM), and communicating with servers.

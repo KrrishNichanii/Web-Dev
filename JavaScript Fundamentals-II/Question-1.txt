@@ -1,0 +1,7 @@
+Question 1: Explain what JavaScript is and its role in web development.
+
+Ans:
+JavaScript is a versatile, high-level, and dynamic programming language primarily used for web development, although it has applications in other domains as well. It plays a crucial role in enhancing the functionality and interactivity of websites and web applications.
+
+Enhanced User Experience: JavaScript is instrumental in creating interactive and dynamic user interfaces. It enables developers to build features like form validation, animations, image sliders, and real-time updates without the need for page reloads.
+DOM Manipulation: JavaScript allows developers to manipulate the Document Object Model (DOM), which represents the structure and content of a web page. This enables changing the content and layout of web pages dynamically in response to user actions.

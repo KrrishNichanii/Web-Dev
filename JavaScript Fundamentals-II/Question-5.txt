@@ -1,0 +1,32 @@
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments.
+Ans:
+
+1)Code Documentation:
+
+Comments provide explanations for your code.
+Well-placed comments make your code more readable. They break down complex logic and make it easier to follow. When you or someone else revisits the code, comments provide context and clarity.
+Example: Comments within code blocks explain specific steps or decisions.
+
+2) Troubleshooting and Debugging:
+
+Comments can serve as markers to identify problematic code or areas that need improvement. They help in locating and fixing issues quickly.
+Example: Comments near problematic code sections can explain the issue and potential solutions.
+
+3)Code Annotations:
+
+Comments can be used to annotate the code with information about to-dos, pending tasks, or areas that require attention. This aids project management and keeps track of unfinished work.
+Example: Comments like // TODO: Refactor this function or // FIXME: This part needs fixing indicate tasks to be addressed.
+Collaboration:
+
+In collaborative development, comments facilitate communication among team members. They clarify code written by others and enable smoother collaboration.
+Example: Comments can explain the rationale behind certain design choices and allow team members to provide feedback.
+
+
+multiline comment e.g  /*
+                         this 
+                          is a
+                           multiline
+                           comment*/
+
+single line comment e.g. //this is a single line comment
