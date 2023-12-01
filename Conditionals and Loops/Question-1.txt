@@ -1,0 +1,30 @@
+Question-1
+
+What are conditional statements? Explain conditional statements with syntax and examples.
+
+Ans : Conditional statements in programming are used to make decisions based on certain conditions. They allow the execution of different code blocks depending on whether a specified condition evaluates to true or false. In JavaScript, there are primarily two types of conditional statements: if statements and switch statements.
+
+1)  The if statement is used to execute a block of code if a specified condition is true. It can be extended with else and else if clauses to handle different scenarios.
+
+if (condition) {
+    // Code to be executed if the condition is true
+} else if (anotherCondition) {
+    // Code to be executed if anotherCondition is true
+} else {
+    // Code to be executed if none of the conditions are true
+}
+
+
+2)  The switch statement is used to evaluate an expression against multiple possible case values. It provides an alternative way to structure code when there are multiple conditions to be checked.
+
+switch (expression) {
+    case value1:
+        // Code to be executed if expression matches value1
+        break;
+    case value2:
+        // Code to be executed if expression matches value2
+        break;
+    // More cases can be added as needed
+    default:
+        // Code to be executed if none of the cases match
+}

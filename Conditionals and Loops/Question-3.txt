@@ -1,0 +1,24 @@
+What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+
+Ans :  
+Loops in programming are used to execute a block of code repeatedly as long as a specified condition is true. They are essential for automating repetitive tasks, iterating over data structures, and streamlining the execution of code.
+
+
+1) for loop 
+
+for (initialization; condition; iteration) {
+    // Code to be executed in each iteration
+}
+
+2) while loop
+
+while (condition) {
+    // Code to be executed as long as the condition is true
+}
+
+3)  do-while loop
+
+do {
+    // Code to be executed at least once
+} while (condition);
